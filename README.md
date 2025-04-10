@@ -29,3 +29,5 @@ Stellearning is currently in development and seeking ecosystem partners and fund
 You can find our site here: https://bit.ly/stellearning
 
 Let’s onboard the world, together.
+
+Project Submitted to Stellar Community Fund: https://communityfund.stellar.org/dashboard/projects/recQW0HhQE9Xb0bCh
