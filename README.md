@@ -35,3 +35,4 @@ You can find our site here: https://bit.ly/stellearning
 Let’s onboard the world, together.
 
 Project Submitted to Stellar Community Fund: https://communityfund.stellar.org/dashboard/projects/recQW0HhQE9Xb0bCh
+Submission to Kickstart: https://communityfund.stellar.org/dashboard/kickstart-cohorts/recur01BpURhbIzfn
