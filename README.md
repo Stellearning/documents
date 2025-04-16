@@ -23,6 +23,10 @@ Who Is It For?
 - Freelancers and Independent Professionals aiming to gain trusted credentials and improve their skills.
 - Companies and Organizations searching for verified talent with on-chain, fraud-proof certifications.
 
+Why Stellearning is a natural fit for the Stellar Ecosystem: 
+
+Stellearning is an open, decentralized educational infrastructure designed to bridge the gap between academic institutions and blockchain-based learning environments. By enabling university instructors to easily offer certified micro-courses directly on-chain, Stellearning leverages Stellar’s strengths in accessibility, low-cost transactions, and global interoperability. The platform incentivizes faculty to engage their students with blockchain tools while maintaining academic rigor and issuing verifiable credentials. As a mission-aligned project focused on educational inclusion, credential portability, and Web3 literacy, Stellearning reflects Stellar’s broader goals of promoting real-world utility, empowering underserved communities, and advancing financial and informational access through open networks. Our project lays the foundation for scalable credential ecosystems on Stellar — with the potential to support millions of learners globally.
+
 Join Us
 Stellearning is currently in development and seeking ecosystem partners and funding to expand its reach. If you are building the future of Web3 and care about education, onboarding, and accessibility — we’d love to connect.
 
