@@ -1,230 +1,248 @@
-## **Digital Webducation Whitepaper**
+## **Digital Webducation – Whitepaper**
+
+*A Multichain Gamified Learning Layer for Web3 Onboarding and Decentralized Education*
 
 ### **Abstract**
 
-Digital Webducation is a decentralized, modular, and gamified learning infrastructure designed for the multichain Web3 ecosystem. It aims to onboard users through practical, reward-based missions and evolve into a community-governed platform where educators can publish, monetize, and certify learning experiences. This whitepaper outlines the rationale, structure, and long-term vision of the project.
+Digital Webducation is a multichain educational platform designed to facilitate scalable, verifiable, and gamified onboarding into the Web3 ecosystem. By combining credentialing through NFTs, modular learning design, and user reputation tracking, the platform serves as both an onboarding tool and the foundation for a decentralized global marketplace for educational content. This whitepaper outlines the problem space, proposed solution, phased development roadmap, and the technical and social architecture supporting the project. Phase 1 focuses on a gamified onboarding application that lays the groundwork for a full-fledged decentralized education infrastructure.
 
 ### **1. Introduction**
 
-The rapid growth of the Web3 ecosystem has created an urgent need for accessible and meaningful educational infrastructure. Current onboarding experiences are fragmented, overly technical, and often disconnected from real use cases. Simultaneously, traditional education systems remain centralized, costly, and out of touch with digital economies — especially in decentralized contexts.
-
-Digital Webducation addresses these gaps by offering a gamified, decentralized learning experience that is co-created and governed by a community DAO focused on inclusion, transparency, and empowerment.
+The rise of blockchain technology and decentralized systems has sparked a global demand for trustworthy, transparent, and accessible education models. Despite the proliferation of e-learning platforms, few leverage the decentralized web’s potential to offer learners full ownership of their credentials and participation. Digital Webducation reimagines education through a multichain architecture that emphasizes accessibility, social impact, and verified achievement.
 
 ### **2. Problem Statement**
 
-* Web3 adoption is hindered by steep learning curves and lack of structured onboarding.
-* Traditional educational platforms are centralized and non-interoperable.
-* Certifications are difficult to verify, easy to falsify, and rarely portable.
-* There are limited incentives for learners and educators to engage in open, decentralized education.
+* Traditional e-learning platforms are centralized, often costly, and lack verification mechanisms.
+* Educators are restricted in how they monetize and distribute their content.
+* Certificates are frequently unverifiable or subject to fraud.
+* Web3 onboarding lacks cohesive, engaging, and gamified educational experiences.
+* Existing platforms rarely address underserved communities or social equity goals.
 
-### **3. The Digital Webducation Solution**
+### **3. Vision and Mission**
 
-Digital Webducation introduces a two-phase approach:
+Our vision is to create an open, inclusive, and decentralized learning ecosystem.
+Our mission is to:
 
-#### **Phase 1: Gamified Onboarding App**
+* Onboard new users into Web3 through gamified, multichain, and modular learning.
+* Enable verifiable credentials via NFTs and badge-based reputation systems.
+* Build a marketplace where educators can offer decentralized courses.
+* Support social inclusion by enabling marginalized communities to access, earn, and teach.
 
-* Mission-based onboarding across key Web3 areas: DeFi, NFTs, DAOs, Dev Tools, and GameFi.
-* Real interactions: wallet setup, token swaps, NFT minting, community participation, smart contract deployment.
-* Progress tracked through non-fungible badges and credentials.
-* A profile system that reflects verified skills and milestones.
+### **4. The Digital Webducation Stack (Phase 1 Focus)**
 
-#### **Phase 2: Decentralized Course Platform**
+#### **Learning Missions**
 
-* Educators and knowledge holders publish modular courses.
-* Learners access content via gated systems (no token required at first).
-* Certification on-chain with transparent, community-verifiable credentials.
-* A reputation and review system curated by the community DAO.
-* Shared ownership and co-governance over the platform roadmap and features.
+* **Categories:** DeFi, NFTs, DAOs, Developer Tools, Web3 Gaming.
+* **Tasks:** Create wallets, mint tokens, join DAOs, interact with dApps.
+* **On-Chain Rewards:** NFTs and badges tied to verified completion.
+* **User Profile System:** Tracks progress, skill trees, and engagement.
+* **Gamification:** XP system, reputation leaderboard, mentor guidance.
 
-### **4. Technology Stack**
+### **5. Modular Architecture**
 
-* Multichain smart contract compatibility (EVM-based and beyond)
-* NFT-based certification and badge system
-* Decentralized file storage for course media (e.g. Arweave/IPFS)
-* Community curation modules, chat, and metaverse-ready interfaces (planned)
+| Layer               | Function                                                  |
+| ------------------- | --------------------------------------------------------- |
+| Multichain Backend  | Supports interactions across EVM-compatible and L2 chains |
+| NFT Minting Engine  | Credential issuance (certificates, badges)                |
+| Gamification Layer  | XP, missions, quests, incentives                          |
+| Reputation Protocol | Tracks peer validation, mentoring, and task history       |
+| Educator Toolkit    | Upload courses, create quests, manage learners            |
+| Onboarding Layer    | Adaptive onboarding for each chain or ecosystem           |
 
-### **5. Governance Model**
+### **6. Market Landscape**
 
-Digital Webducation is structured as a DAO (Decentralized Autonomous Organization). All major platform decisions — from feature priorities to content moderation guidelines — are proposed and voted on by the community of educators, learners, and developers. This ensures transparency, long-term resilience, and alignment with the needs of diverse global communities.
+* E-learning market expected to reach \$400B by 2026.
+* Growing demand for micro-credentials and skills-based certification.
+* Web3 lacks comprehensive onboarding tools with real use cases.
+* Platforms like LearnWeb3, Buildspace, and Layer3 provide task bounties but not full modular learning pathways with social/educational depth.
 
-The DAO governance is built into the architecture, with voting mechanisms designed to be fair, accessible, and identity-aware. While tokens may be introduced in the future, current governance is based on verified participation and contribution history, not financial stake.
+### **7. Target Users**
 
-### **6. Business Model**
+* Web3 newcomers and lifelong learners
+* Independent educators and DAOs
+* Universities seeking decentralized certification
+* Onboarding teams and grant-based learning initiatives
+* Marginalized communities and learners with limited access to formal education
 
-* Commission on premium course features and certification issuance
-* Optional freemium model for onboarding tools and analytics
-* Open access for learners; revenue-sharing for educators and DAO contributors
-* B2B deployments for DAOs, communities, and institutions
-* White-label integrations and decentralized identity services
+### **8. Revenue and Sustainability Model**
 
-### **7. Roadmap**
+#### **Phase 1 (Onboarding App)**
 
-**Phase 1 (2025):**
+* Badge minting fees (NFTs)
+* Tokenized incentive pools
+* Freemium features for mentors and community guides
+* Donations and grants from foundations and DAOs
 
-* Launch MVP of gamified onboarding
-* Test with DAO contributors and selected pilot communities
-* Build profile system and multichain wallet integrations
+#### **Phase 2+ (Marketplace and Certification)**
 
-**Phase 2 (2026–2027):**
+* Course NFTs with creator revenue split
+* Analytics dashboards and educator subscription tiers
+* Certification issuance and validation fees
+* Fiat-onboarding and white-label integration for DAOs or institutions
 
-* Launch full decentralized course platform
-* Enable course publishing, curation, and certification
-* DAO governance module activated
-* Integrate community-curated reputation and credentialing logic
-* Expand support to multiple blockchains
+### **9. Social Impact Layer**
 
-### **8. Team**
+* Low-gas chains support users in regions with poor infrastructure
+* Translation of onboarding quests to local languages
+* Mentor programs to increase retention among underrepresented users
+* Focus on peer-learning and co-creation of educational content
 
-**Rodrigo Reis Lastra Cid – Founder & Strategy**
-Philosophy professor, Virtualia Magazine editor, metaverse advisor, former NEAR and JTF grantee.
+### **10. Development Roadmap (Phase 1)**
 
-**Mateus – Project & Community Manager**
-Founder of Crypto Star Games, Web3 builder, startup alumnus, Discord engineer.
+| Timeline    | Milestones                                               |
+| ----------- | -------------------------------------------------------- |
+| Months 1–4  | Core architecture, smart contract development, UX design |
+| Months 5–8  | Gamification logic, badge system, onboarding framework   |
+| Months 9–12 | Beta testing, community deployment, grant outreach       |
 
-**Rafaela Nóbrega (BeetleJuice) – UX & RPG Design**
-M.A. in Design, gamified education specialist, researcher at DesEduca Lab and RPG Study Group.
+### **11. Budget Breakdown (Phase 1 – \$30,000)**
 
-**Numa Oliveira – Education & Web3 Design**
-M.A. candidate in Digital Artifact Design, mentor at Web3EduBrasil, NFT Brasil Ambassador.
+| Category           | Cost         | Description                                   |
+| ------------------ | ------------ | --------------------------------------------- |
+| Development        | \$12,000     | App logic, smart contracts, blockchain infra  |
+| Design & UX        | \$4,000      | Interface for missions, gamification visuals  |
+| Marketing & Growth | \$5,000      | Ads, ambassador program, social channels      |
+| Team Operations    | \$6,000      | Strategic leads, educators, community manager |
+| Legal & Compliance | \$1,000      | Smart contract review, decentralization audit |
+| Data Architecture  | \$2,000      | Skill mapping, reputation engine              |
+| Infrastructure     | \$2,000      | Hosting, RPC endpoints, multichain fees       |
+| **Total**          | **\$30,000** | Covered through grants and community support  |
 
-**Katia Suzue – Community & Testing**
-Expert in e-learning and curriculum design, two-time NFT Brasil hackathon winner.
+### **12. Risk Factors and Mitigations**
 
-**Developer – TBD**
-Smart contract and multichain dApp specialist, focused on scalability and modularity.
+| Risk                                 | Mitigation Strategy                                      |
+| ------------------------------------ | -------------------------------------------------------- |
+| Low creator adoption                 | Offer free onboarding tools, token incentives            |
+| User friction due to Web3 complexity | Step-by-step quests with guided support                  |
+| Legal uncertainties                  | Use of open-source, non-custodial architecture           |
+| High competition                     | Unique mix of gamification, verification, and modularity |
 
-### **9. Metrics and Transparency**
+### **13. Conclusion**
 
-Digital Webducation is committed to transparent, privacy-respecting analytics. From MVP launch, we will track:
-
-* Completion rates of quests and modules
-* On-chain credential issuance
-* DAO participation metrics
-* Community-curated feedback
-
-This data will inform improvements and be publicly accessible to support academic and ecosystem partnerships.
-
-### **10. Call to Action**
-
-Digital Webducation is currently in active development and seeking mission-aligned contributors, communities, and partners. Join us in building the world’s first decentralized, community-owned education platform for Web3 — built on multichain infrastructure, governed by educators and learners.
-
-**Contact:** [thephilosopher.nft@gmail.com](mailto:thephilosopher.nft@gmail.com)
-**DAO Portal:** Coming soon
-**Website:** In development
+Digital Webducation is not just another onboarding tool — it is a framework for the future of open, verifiable, and inclusive education. By blending multichain infrastructure, gamified learning, and social impact strategies, we provide a platform that empowers users to learn, grow, and teach within a truly decentralized context. With your support, we can make the next generation of education trustless, borderless, and community-driven.
 
 ................................................................................
 
 
-## **Whitepaper do Digital Webducation**
+## **Digital Webducation – Whitepaper**
 
-### **Resumo**
+*Uma Camada de Aprendizado Gamificado Multichain para Onboarding Web3 e Educação Descentralizada*
 
-Digital Webducation é uma infraestrutura de aprendizado descentralizada, modular e gamificada, projetada para o ecossistema multichain do Web3. Seu objetivo é engajar usuários por meio de missões práticas baseadas em recompensas e evoluir para uma plataforma governada pela comunidade, onde educadores podem publicar, monetizar e certificar experiências de aprendizagem. Este whitepaper apresenta a motivação, estrutura e visão de longo prazo do projeto.
+### **Resumo Executivo**
+
+Digital Webducation é uma plataforma educacional multichain desenvolvida para facilitar um onboarding escalável, verificável e gamificado no ecossistema Web3. Combinando credenciais por meio de NFTs, design modular de aprendizado e rastreamento de reputação dos usuários, a plataforma funciona tanto como ferramenta de entrada quanto como base para um marketplace global descentralizado de conteúdos educacionais. Este whitepaper apresenta o contexto do problema, a solução proposta, o plano de desenvolvimento por fases e a arquitetura técnica e social que sustenta o projeto. A Fase 1 foca em um aplicativo de onboarding gamificado que estabelece os alicerces para uma infraestrutura educacional completamente descentralizada.
 
 ### **1. Introdução**
 
-O rápido crescimento do ecossistema Web3 criou uma necessidade urgente por uma infraestrutura educacional acessível e significativa. As experiências atuais de onboarding são fragmentadas, excessivamente técnicas e frequentemente desconectadas de casos reais de uso. Ao mesmo tempo, os sistemas educacionais tradicionais permanecem centralizados, caros e desconectados das economias digitais — especialmente em contextos descentralizados.
-
-O Digital Webducation preenche essas lacunas ao oferecer uma experiência de aprendizado gamificada e descentralizada, co-criada e governada por uma DAO comunitária focada em inclusão, transparência e empoderamento.
+O avanço das tecnologias blockchain e dos sistemas descentralizados gerou uma demanda global por modelos educacionais confiáveis, transparentes e acessíveis. Apesar da ampla oferta de plataformas de e-learning, poucas aproveitam o potencial da Web3 para oferecer aos alunos propriedade total sobre suas credenciais e sua participação. O Digital Webducation propõe uma reinvenção da educação por meio de uma arquitetura multichain que valoriza acessibilidade, impacto social e reconhecimento verificado.
 
 ### **2. Problema**
 
-* A adoção do Web3 é dificultada por curvas de aprendizado íngremes e falta de onboarding estruturado.
-* Plataformas educacionais tradicionais são centralizadas e não interoperáveis.
-* Certificações são difíceis de verificar, fáceis de falsificar e raramente portáteis.
-* Existem poucos incentivos para que aprendizes e educadores participem de educação aberta e descentralizada.
+* Plataformas tradicionais de e-learning são centralizadas, muitas vezes caras e não oferecem mecanismos de verificação.
+* Educadores enfrentam limitações para monetizar e distribuir seus conteúdos.
+* Certificados são frequentemente frágeis, falsificáveis ou difíceis de comprovar.
+* O onboarding na Web3 carece de experiências educativas engajantes e gamificadas.
+* Plataformas existentes raramente atendem a comunidades marginalizadas ou têm foco em inclusão social.
 
-### **3. A Solução Digital Webducation**
+### **3. Visão e Missão**
 
-O Digital Webducation apresenta uma abordagem em duas fases:
+**Visão:** Criar um ecossistema de aprendizado aberto, inclusivo e descentralizado.
+**Missão:**
 
-#### **Fase 1: Aplicativo de Onboarding Gamificado**
+* Integrar novos usuários à Web3 por meio de trilhas modulares gamificadas.
+* Emitir credenciais verificáveis com NFTs e sistemas de reputação.
+* Construir um marketplace para cursos descentralizados.
+* Promover inclusão social, permitindo que comunidades marginalizadas aprendam, ganhem e ensinem.
 
-* Onboarding baseado em missões nas principais áreas do Web3: DeFi, NFTs, DAOs, ferramentas de desenvolvimento e GameFi.
-* Interações reais: configuração de carteira, troca de tokens, mintagem de NFTs, participação comunitária, implantação de contratos inteligentes.
-* Progresso registrado por meio de badges e credenciais não fungíveis.
-* Sistema de perfil que reflete habilidades e marcos verificados.
+### **4. A Stack Digital Webducation (Foco da Fase 1)**
 
-#### **Fase 2: Plataforma Descentralizada de Cursos**
+#### **Missões de Aprendizado**
 
-* Educadores e detentores de conhecimento publicam cursos modulares.
-* Aprendizes acessam o conteúdo via sistemas controlados (sem necessidade de tokens inicialmente).
-* Certificação on-chain com credenciais transparentes e verificáveis pela comunidade.
-* Sistema de reputação e avaliações gerido pela DAO comunitária.
-* Propriedade compartilhada e cogovernança sobre o roadmap e funcionalidades da plataforma.
+* **Categorias:** DeFi, NFTs, DAOs, Ferramentas para Desenvolvedores, Web3 Gaming.
+* **Tarefas:** Criar carteiras, cunhar tokens, entrar em DAOs, interagir com dApps.
+* **Recompensas On-Chain:** NFTs e badges vinculados à conclusão validada.
+* **Sistema de Perfil:** Acompanha progresso, habilidades e engajamento.
+* **Gamificação:** Sistema de XP, rankings de reputação, guias mentores.
 
-### **4. Tecnologia**
+### **5. Arquitetura Modular**
 
-* Compatibilidade com smart contracts multichain (baseados em EVM e outras)
-* Sistema de certificação e badges baseado em NFTs
-* Armazenamento descentralizado para mídia dos cursos (ex: Arweave/IPFS)
-* Módulos de curadoria comunitária, chat e interfaces preparadas para metaverso (planejadas)
+| Camada                      | Função                                                 |
+| --------------------------- | ------------------------------------------------------ |
+| Backend Multichain          | Interação com blockchains EVM e L2s compatíveis        |
+| Motor de NFTs               | Emissão de certificados e badges                       |
+| Camada de Gamificação       | Missões, recompensas, XP e incentivos                  |
+| Protocolo de Reputação      | Validação entre pares, histórico de tarefas e mentoria |
+| Ferramentas para Educadores | Enviar cursos, criar missões, gerenciar alunos         |
+| Camada de Onboarding        | Adaptação e entrada para cada chain/ecossistema        |
 
-### **5. Modelo de Governança**
+### **6. Panorama de Mercado**
 
-O Digital Webducation é estruturado como uma DAO (Organização Autônoma Descentralizada). Todas as decisões principais da plataforma — desde prioridades de funcionalidades até diretrizes de moderação de conteúdo — são propostas e votadas pela comunidade de educadores, aprendizes e desenvolvedores. Isso assegura transparência, resiliência a longo prazo e alinhamento com as necessidades de comunidades globais diversas.
+* O mercado global de e-learning deve atingir US\$ 400 bilhões até 2026.
+* A demanda por microcredenciais e certificações baseadas em habilidades cresce rapidamente.
+* A Web3 ainda carece de ferramentas completas de onboarding com valor educacional real.
+* Iniciativas como LearnWeb3, Buildspace e Layer3 oferecem bounties e tarefas, mas não apresentam caminhos educacionais estruturados, verificáveis e com impacto social.
 
-A governança da DAO está embutida na arquitetura, com mecanismos de votação justos, acessíveis e conscientes de identidade. Embora tokens possam ser introduzidos futuramente, a governança atual baseia-se na participação verificada e histórico de contribuições, não em participação financeira.
+### **7. Públicos-Alvo**
 
-### **6. Modelo de Negócio**
+* Novatos na Web3 e aprendizes contínuos
+* Educadores independentes e DAOs educacionais
+* Universidades em busca de certificação descentralizada
+* Equipes de onboarding e iniciativas com funding de grants
+* Comunidades marginalizadas com pouco acesso à educação formal
 
-* Comissão sobre recursos premium de cursos e emissão de certificações
-* Modelo freemium opcional para ferramentas de onboarding e análises
-* Acesso aberto para aprendizes; divisão de receita para educadores e colaboradores da DAO
-* Implementações B2B para DAOs, comunidades e instituições
-* Integrações white-label e serviços de identidade descentralizada
+### **8. Modelo de Sustentabilidade e Receita**
 
-### **7. Roteiro**
+#### **Fase 1 (App de Onboarding)**
 
-**Fase 1 (2025):**
+* Taxas de emissão de badges e NFTs
+* Pools de incentivo com tokens
+* Recursos freemium para mentores e guias da comunidade
+* Doações e grants de fundações e DAOs
 
-* Lançar MVP do onboarding gamificado
-* Testar com colaboradores da DAO e comunidades piloto selecionadas
-* Construir sistema de perfil e integrações multichain de carteira
+#### **Fase 2+ (Marketplace e Certificação)**
 
-**Fase 2 (2026–2027):**
+* Cursos como NFTs com divisão de receita para criadores
+* Painéis analíticos e planos pagos para educadores
+* Taxas para emissão e verificação de certificados
+* Integração com fiat e soluções white-label para DAOs e instituições
 
-* Lançar plataforma descentralizada completa de cursos
-* Permitir publicação, curadoria e certificação de cursos
-* Ativar módulo de governança DAO
-* Integrar lógica de reputação e certificação curada pela comunidade
-* Expandir suporte para múltiplas blockchains
+### **9. Camada de Impacto Social**
 
-### **8. Equipe**
+* Uso de blockchains de baixo custo para acessibilidade global
+* Tradução das missões para idiomas locais
+* Programas de mentoria focados em grupos sub-representados
+* Incentivo à criação coletiva e aprendizado entre pares
 
-**Rodrigo Reis Lastra Cid – Fundador & Estratégia**
-Professor de filosofia, editor da revista Virtualia, advisor de metaverso, ex-bolsista NEAR e JTF.
+### **10. Roadmap de Desenvolvimento (Fase 1)**
 
-**Mateus – Gerente de Projeto & Comunidade**
-Fundador da Crypto Star Games, construtor Web3, ex-aluno de startup, engenheiro Discord.
+| Período    | Marcos Principais                                        |
+| ---------- | -------------------------------------------------------- |
+| Meses 1–4  | Arquitetura principal, contratos inteligentes, design UX |
+| Meses 5–8  | Lógica de gamificação, sistema de badges, onboarding     |
+| Meses 9–12 | Testes beta, lançamento comunitário, busca de grants     |
 
-**Rafaela Nóbrega (BeetleJuice) – UX & Design de RPG**
-Mestrado em Design, especialista em educação gamificada, pesquisadora no DesEduca Lab e Grupo de Estudos RPG.
+### **11. Orçamento Detalhado (Fase 1 – US\$ 30.000)**
 
-**Numa Oliveira – Educação & Design Web3**
-Candidata a mestrado em Design de Artefatos Digitais, mentora no Web3EduBrasil, Embaixadora NFT Brasil.
+| Categoria               | Valor           | Descrição                                            |
+| ----------------------- | --------------- | ---------------------------------------------------- |
+| Desenvolvimento         | US\$ 12.000     | Lógica do app, contratos, infraestrutura blockchain  |
+| Design e UX             | US\$ 4.000      | Interface das missões, visual da gamificação         |
+| Marketing e Crescimento | US\$ 5.000      | Anúncios, programa de embaixadores, redes sociais    |
+| Operações e Equipe      | US\$ 6.000      | Estratégia, educadores, gestor de comunidade         |
+| Jurídico e Compliance   | US\$ 1.000      | Revisão dos contratos, auditoria de descentralização |
+| Arquitetura de Dados    | US\$ 2.000      | Mapeamento de habilidades, reputação                 |
+| Infraestrutura          | US\$ 2.000      | Hospedagem, RPCs, taxas multichain                   |
+| **Total**               | **US\$ 30.000** | Financiado por grants e apoio comunitário            |
 
-**Katia Suzue – Comunidade & Testes**
-Especialista em e-learning e design curricular, bicampeã do hackathon NFT Brasil.
+### **12. Riscos e Estratégias de Mitigação**
 
-**Desenvolvedor – A definir**
-Especialista em smart contracts e dApps multichain, focado em escalabilidade e modularidade.
+| Risco                              | Estratégia de Mitigação                                 |
+| ---------------------------------- | ------------------------------------------------------- |
+| Baixa adesão de criadores          | Ferramentas gratuitas, incentivos com tokens            |
+| Complexidade técnica para usuários | Tutoriais gamificados e suporte por mentores            |
+| Incertezas legais                  | Arquitetura open-source e não-custodial                 |
+| Concorrência elevada               | Diferencial com gamificação, verificação e modularidade |
 
-### **9. Métricas e Transparência**
+### **13. Conclusão**
 
-O Digital Webducation se compromete com análises transparentes e que respeitam a privacidade. Desde o lançamento do MVP, serão acompanhados:
-
-* Taxas de conclusão de missões e módulos
-* Emissão de credenciais on-chain
-* Métricas de participação na DAO
-* Feedback curado pela comunidade
-
-Esses dados irão guiar melhorias e serão acessíveis publicamente para apoiar parcerias acadêmicas e do ecossistema.
-
-### **10. Chamada à Ação**
-
-O Digital Webducation está em desenvolvimento ativo e busca colaboradores, comunidades e parceiros alinhados com a missão. Junte-se a nós para construir a primeira plataforma educacional descentralizada e comunitária para o Web3 — baseada em infraestrutura multichain, governada por educadores e aprendizes.
-
-**Contato:** [thephilosopher.nft@gmail.com](mailto:thephilosopher.nft@gmail.com)
-**Portal DAO:** Em breve
-**Website:** Em desenvolvimento
+Digital Webducation não é apenas uma ferramenta de onboarding — é um framework para o futuro da educação: aberta, verificável e inclusiva. Combinando infraestrutura multichain, aprendizagem gamificada e estratégias de impacto social, oferecemos uma plataforma que capacita usuários a aprender, evoluir e ensinar em um ambiente verdadeiramente descentralizado. Com seu apoio, podemos construir a próxima geração da educação: sem fronteiras, sem intermediários, e guiada pela comunidade.
